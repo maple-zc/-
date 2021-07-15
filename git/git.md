@@ -100,3 +100,19 @@ $ git push origin --delete [branch-name]
 $ git branch -dr [remote/branch]
 ```
 
+#### 五、远程同步
+
+```
+# 上传本地指定分支到远程仓库
+$ git push [remote] [branch]
+
+# 强行推送当前分支到远程仓库，即使有冲突
+$ git push [remote] --force
+
+# 推送所有分支到远程仓库
+$ git push [remote] --all
+
+# 取回远程仓库的变化，并与本地分支合并
+$ git pull [remote] [branch]
+```
+
