@@ -106,7 +106,7 @@ console.log(combine(m,n));                     // [1, 2, 3]
 #### 将集合转化为数组的方法
 
 - `Array.from(A)`
-- `[].slice.apply()`
+- `[].slice.apply(A)`
 - `[...A]`
 - `[].map.call(A, o => o)`
 
