@@ -11,3 +11,10 @@ img {
 }
 ```
 
+#### 2021/7/17
+
+`white-space: nowrap`：可以实现文本不换行
+
+`text-overflow: ellipsis`：文本溢出部分用省略号表示
+
+flex布局默认的`align-items: stretch`，相当于每行的高度都是height最大的那一个
